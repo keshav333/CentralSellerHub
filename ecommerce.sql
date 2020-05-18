@@ -12,9 +12,9 @@ select * from seller;
 
 insert into seller(seller_id, seller_address, seller_contact_no, seller_email_id, seller_name, seller_password, shop_name) VALUES
 (1,'kanpur','9639369429','keshav@gmail.com','Keshav Gupta','1234','POP'),
-(2,'bhopal','123','eshita@gmail.com','Eshita Sharma','1234','CHUMBAK'),
-(3,'akola','1234','lubaina@gmail.com','Lubaina Machinewala','1234','NAVBHARAT'),
-(4,'indore','12345','shreya@gmail.com','Shreya Joshi','1234','WhiteFiled')
+(2,'bhopal','9753426643','eshita@gmail.com','Eshita Sharma','1234','CHUMBAK'),
+(3,'akola','9404861652','lubaina@gmail.com','Lubaina Machinewala','1234','NAVBHARAT'),
+(4,'indore','7415784685','shreya@gmail.com','Shreya Joshi','1234','WhiteFiled')
 
 drop table ecommerce, ecommerce_seller, product_ecommerce, hibernate_sequence, product, SPRING_SESSION_ATTRIBUTES, seller
 
