@@ -1,4 +1,4 @@
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SpringSessionController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SpringSessionController" %>
 <!DOCTYPE html>
 <html>
 <head>

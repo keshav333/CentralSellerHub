@@ -1,15 +1,12 @@
-package com.acms.CentralSellerPortal.Controllers;
-import com.acms.CentralSellerPortal.Entities.Product;
-import com.acms.CentralSellerPortal.Entities.Seller;
-import com.acms.CentralSellerPortal.Repositories.ProductRepository;
-import com.acms.CentralSellerPortal.Repositories.SellerRepository;
-import com.acms.CentralSellerPortal.Services.SellerService;
+package com.spe.CentralSellerPortal.Controllers;
+import com.spe.CentralSellerPortal.Entities.Product;
+import com.spe.CentralSellerPortal.Entities.Seller;
+import com.spe.CentralSellerPortal.Repositories.ProductRepository;
+import com.spe.CentralSellerPortal.Repositories.SellerRepository;
+import com.spe.CentralSellerPortal.Services.SellerService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.ui.Model;
 import org.springframework.web.servlet.view.RedirectView;
 
 

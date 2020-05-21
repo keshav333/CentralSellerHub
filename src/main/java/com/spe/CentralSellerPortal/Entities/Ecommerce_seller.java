@@ -1,4 +1,4 @@
-package com.acms.CentralSellerPortal.Entities;
+package com.spe.CentralSellerPortal.Entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

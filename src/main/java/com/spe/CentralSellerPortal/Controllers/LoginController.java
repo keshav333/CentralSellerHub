@@ -1,12 +1,11 @@
-package com.acms.CentralSellerPortal.Controllers;
-import com.acms.CentralSellerPortal.Entities.Ecommerce;
-import com.acms.CentralSellerPortal.Entities.Ecommerce_seller;
-import com.acms.CentralSellerPortal.Repositories.EcommerceSellerRepository;
+package com.spe.CentralSellerPortal.Controllers;
+import com.spe.CentralSellerPortal.Entities.Ecommerce_seller;
+import com.spe.CentralSellerPortal.Repositories.EcommerceSellerRepository;
 import javax.servlet.http.HttpSession;
 
 
-import com.acms.CentralSellerPortal.Entities.Seller;
-import com.acms.CentralSellerPortal.Repositories.SellerRepository;
+import com.spe.CentralSellerPortal.Entities.Seller;
+import com.spe.CentralSellerPortal.Repositories.SellerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;

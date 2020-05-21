@@ -1,10 +1,10 @@
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SpringSessionController" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Seller" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SpringSessionController" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Seller" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Product" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Product" %>
 <%@ page import="org.springframework.http.ResponseEntity" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SellerController" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.ProductController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SellerController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.ProductController" %>
 <%@ page import="org.springframework.web.bind.annotation.RequestMapping" %>
 <%@ page import="java.util.List" %>
 <%--<%@ page import="org.springframework.web.bind.annotation.RequestBody" %>--%>

@@ -1,8 +1,7 @@
-package com.acms.CentralSellerPortal.Services;
+package com.spe.CentralSellerPortal.Services;
 
-import com.acms.CentralSellerPortal.Entities.Ecommerce;
-import com.acms.CentralSellerPortal.Entities.Ecommerce_seller;
-import com.acms.CentralSellerPortal.Repositories.EcommerceSellerRepository;
+import com.spe.CentralSellerPortal.Entities.Ecommerce_seller;
+import com.spe.CentralSellerPortal.Repositories.EcommerceSellerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

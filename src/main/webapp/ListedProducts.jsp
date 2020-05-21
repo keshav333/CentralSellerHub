@@ -1,6 +1,6 @@
-<%@ page import="com.acms.CentralSellerPortal.Entities.Seller" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Seller" %>
 <%@ page import="org.springframework.http.ResponseEntity" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SellerController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SellerController" %>
 <%@ page import="org.springframework.web.bind.annotation.RequestMapping" %>
 <%--<%@ page import="org.springframework.web.bind.annotation.RequestBody" %>--%>
 <!DOCTYPE html>

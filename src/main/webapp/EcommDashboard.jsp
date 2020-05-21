@@ -1,10 +1,10 @@
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SpringSessionController" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Seller" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SpringSessionController" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Seller" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Product" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Product" %>
 <%@ page import="org.springframework.http.ResponseEntity" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SellerController" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.ProductController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SellerController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.ProductController" %>
 <%@ page import="org.springframework.web.bind.annotation.RequestMapping" %>
 <%--<%@ page import="org.springframework.web.bind.annotation.RequestBody" %>--%>
 <!DOCTYPE html>
@@ -46,7 +46,7 @@
         </div>
  
         <div class="navbar-header">
-            <form class ="form-view" id="view-form-view-sellers" action="/products/displayAll/<%=e_id%>" method="get">
+            <form class ="form-view" id="view-form-view-sellers" action="/ecommsell/ecommproducts/" method="get">
                 <form :hidden path="id"/>
                 <div class="form-row">
                     <div class="form-group">
@@ -57,7 +57,7 @@
             </form>
         </div>
         <div class="navbar-header">
-            <form class ="form-view" id="view-form-viewproduct" action = "/" method="get">
+            <form class ="form-view" id="view-form-viewproduct" action = "/ecommsell/viewAllEcommProducts/<%=e_id%>" method="get">
                 <form :hidden path="id"/>
                 <div class="form-row">
                     <div class="form-group">
@@ -83,7 +83,8 @@
 <br>
 <div class="jumbotron">
     <div class="container" style="font-family: Ubuntu; font-size: large">
-        <h1> Welcome, ${ecommName}.</h1>
+        <h1> Welcome ${ecommEmailId}
+        </h1>
         <h1> Here is your Business Platform!</h1>
         <p>We provide platform for crores of Businesses to interact and grow. No Listing fees, easy steps and professional support that helps you grow your business.</p>
         <p >Start Exploring sellers from around the world..</p>

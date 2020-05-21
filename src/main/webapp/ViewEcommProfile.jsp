@@ -1,10 +1,10 @@
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SpringSessionController" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Seller" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SpringSessionController" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Seller" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Product" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Product" %>
 <%@ page import="org.springframework.http.ResponseEntity" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SellerController" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.ProductController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SellerController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.ProductController" %>
 <%@ page import="org.springframework.web.bind.annotation.RequestMapping" %>
 <%--<%@ page import="org.springframework.web.bind.annotation.RequestBody" %>--%>
 <!DOCTYPE html>
@@ -84,7 +84,7 @@
 <div class="jumbotron" id="ecomm-profile" style="font-size: large; font-family: Ubuntu " >
     <div class="container">
         <div id="seller-profile">
-            <td><b>Welcome,    ${ecommName}</b>         </td>
+            <td><b>Welcome, </b>         </td>
             <br><br>
             <%--        <td>ID: <%=id%>                             </td>--%>
             <%--        <br>--%>

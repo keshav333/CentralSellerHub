@@ -1,10 +1,10 @@
-<!-- <%@ page import="com.acms.CentralSellerPortal.Controllers.SpringSessionController" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Seller" %>
+<!-- <%@ page import="com.spe.CentralSellerPortal.Controllers.SpringSessionController" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Seller" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.acms.CentralSellerPortal.Entities.Product" %>
+<%@ page import="com.spe.CentralSellerPortal.Entities.Product" %>
 <%@ page import="org.springframework.http.ResponseEntity" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.SellerController" %>
-<%@ page import="com.acms.CentralSellerPortal.Controllers.ProductController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.SellerController" %>
+<%@ page import="com.spe.CentralSellerPortal.Controllers.ProductController" %>
 <%@ page import="org.springframework.web.bind.annotation.RequestMapping" %>
 <%--<%@ page import="org.springframework.web.bind.annotation.RequestBody" %>--%> -->
 <!DOCTYPE html>
@@ -50,6 +50,7 @@
                     <th style="font-size:20px">Description</th>
                     <th style="font-size:20px">Price</th>
                     <th style="font-size:20px">Discount</th>
+                    <th style="font-size:20px">Shop Name</th>
                     </thead>
                     <tbody>
                     <c:forEach var="e" items="${showcaseList}">
@@ -60,6 +61,7 @@
                             <td><br><br>${e.productDescription}</td>
                             <td><br><br>${e.price}</td>
                             <td><br><br>${e.discount}</td>
+                            <td><br><br>${e.seller.shopName}</td>
                         </tr>
                     </c:forEach>
                     </tbody>

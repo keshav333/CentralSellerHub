@@ -1,11 +1,10 @@
-package com.acms.CentralSellerPortal.Controllers;
+package com.spe.CentralSellerPortal.Controllers;
 
-import com.acms.CentralSellerPortal.Entities.Ecommerce;
-import com.acms.CentralSellerPortal.Entities.Ecommerce_seller;
-import com.acms.CentralSellerPortal.Entities.Product;
-import com.acms.CentralSellerPortal.Repositories.EcommerceRepository;
-import com.acms.CentralSellerPortal.Repositories.EcommerceSellerRepository;
-import com.acms.CentralSellerPortal.Repositories.ProductRepository;
+import com.spe.CentralSellerPortal.Entities.Ecommerce_seller;
+import com.spe.CentralSellerPortal.Entities.Product;
+import com.spe.CentralSellerPortal.Repositories.EcommerceRepository;
+import com.spe.CentralSellerPortal.Repositories.EcommerceSellerRepository;
+import com.spe.CentralSellerPortal.Repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

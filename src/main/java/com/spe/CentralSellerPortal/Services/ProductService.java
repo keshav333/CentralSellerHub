@@ -1,7 +1,6 @@
-package com.acms.CentralSellerPortal.Services;
-import com.acms.CentralSellerPortal.Entities.Product;
-import com.acms.CentralSellerPortal.Repositories.ProductRepository;
-import com.acms.CentralSellerPortal.Repositories.SellerRepository;
+package com.spe.CentralSellerPortal.Services;
+import com.spe.CentralSellerPortal.Entities.Product;
+import com.spe.CentralSellerPortal.Repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Value;

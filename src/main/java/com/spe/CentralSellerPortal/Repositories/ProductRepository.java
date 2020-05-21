@@ -1,11 +1,8 @@
-package com.acms.CentralSellerPortal.Repositories;
+package com.spe.CentralSellerPortal.Repositories;
 
-import com.acms.CentralSellerPortal.Entities.Product;
+import com.spe.CentralSellerPortal.Entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import com.acms.CentralSellerPortal.Entities.Seller;
 
 
 import java.util.List;

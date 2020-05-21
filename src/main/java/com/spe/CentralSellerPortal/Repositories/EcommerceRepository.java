@@ -1,8 +1,6 @@
-package com.acms.CentralSellerPortal.Repositories;
+package com.spe.CentralSellerPortal.Repositories;
 
-import com.acms.CentralSellerPortal.Entities.Ecommerce;
-import com.acms.CentralSellerPortal.Entities.Ecommerce_seller;
-import com.acms.CentralSellerPortal.Entities.Product;
+import com.spe.CentralSellerPortal.Entities.Ecommerce;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

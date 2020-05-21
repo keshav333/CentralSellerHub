@@ -1,14 +1,12 @@
-package com.acms.CentralSellerPortal.Controllers;
+package com.spe.CentralSellerPortal.Controllers;
 
-import com.acms.CentralSellerPortal.Entities.Ecommerce;
-import com.acms.CentralSellerPortal.Entities.Product;
-import com.acms.CentralSellerPortal.Entities.Seller;
-import com.acms.CentralSellerPortal.Repositories.ProductRepository;
-import com.acms.CentralSellerPortal.Repositories.SellerRepository;
-import com.acms.CentralSellerPortal.Services.ProductService;
-import com.acms.CentralSellerPortal.Services.SellerService;
+import com.spe.CentralSellerPortal.Entities.Product;
+import com.spe.CentralSellerPortal.Entities.Seller;
+import com.spe.CentralSellerPortal.Repositories.ProductRepository;
+import com.spe.CentralSellerPortal.Repositories.SellerRepository;
+import com.spe.CentralSellerPortal.Services.ProductService;
+import com.spe.CentralSellerPortal.Services.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.multipart.MultipartFile;
@@ -17,10 +15,7 @@ import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URISyntaxException;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/products")
