@@ -4,10 +4,10 @@ services:
   mysql-standalone1:
     image: mysql:latest
     environment:
-      - MYSQL_ROOT_PASSWORD=chaos
+      - MYSQL_ROOT_PASSWORD=palak135@95
       - MYSQL_DATABASE=spe
-      - MYSQL_USER=keshavSpring
-      - MYSQL_PASSWORD=Chaos!123
+      - MYSQL_USER=eshi13
+      - MYSQL_PASSWORD=chaos123
   central-hub-container:
     image: central-hub-image
     ports:
