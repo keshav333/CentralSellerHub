@@ -14,7 +14,7 @@ import java.net.URISyntaxException;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class CentralSellerPortalTest {
+public class CentralSellerPortalApplicationTest {
     @LocalServerPort
     int randomServerPort;
 
