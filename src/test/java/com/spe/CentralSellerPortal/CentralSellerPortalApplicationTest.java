@@ -19,7 +19,7 @@ public class CentralSellerPortalApplicationTest {
     int randomServerPort;
 
     @Test
-    public void testGetEmployeeListSuccess() throws URISyntaxException
+    public void testSellerfetchproducts() throws URISyntaxException
     {
         RestTemplate restTemplate = new RestTemplate();
 
