@@ -6,13 +6,13 @@ import com.spe.CentralSellerPortal.Repositories.EcommerceRepository;
 import com.spe.CentralSellerPortal.Repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/ecom")
 public class EcommerceController {
 
@@ -21,6 +21,15 @@ public class EcommerceController {
 
     @Autowired
     EcommerceRepository ecommerceRepository;
+
+    @GetMapping(path = "/getall", produces = "application/json")
+    public List<Ecommerce> getAllEcommerce(){
+        System.out.println("reached for test");
+        List<Ecommerce> ecommerce;
+        ecommerce = ecommerceRepository.findAll();
+        System.out.println(ecommerce);
+        return ecommerce;
+    }
 
 
     @RequestMapping(value = "/add/{pid}") //, method=RequestMethod.POST)
